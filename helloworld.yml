@@ -3,8 +3,6 @@
   hosts: all
  
   tasks:
- 
-  - name: Hello World!
   - debug:
       msg: "target: {{ target_cloud }} software: {{ software }} operating_system: {{ user_input }}"
       
