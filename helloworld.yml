@@ -5,4 +5,7 @@
   tasks:
  
   - name: Hello World!
-    shell: echo "Hi! Tower is working."
+  - debug:
+    msg: "target: {{ target_cloud }} software: {{ software }} operating_system: {{ user_input }}"
+      
+    
